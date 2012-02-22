@@ -9,17 +9,17 @@
 <p>This class accepts $_POST data from an online form. This form should include the 24 questions stated by McCroskey in the link above.</p>
 <p>
 <code>
-include '/path/to/class/Calculator.php';\r\n
-$calculator = new Calculator($_POST);\r\n\r\n
+include '/path/to/class/Calculator.php';<br />
+$calculator = new Calculator($_POST);<br /><br />
 
-// can get individual group scores with ->getScore($group)\r\n
-// group   => Group Discussion Score\r\n
-// meeting => Meeting Score\r\n
-// interpersonal => Interpersonal Score\r\n
-// public => Public Speaking Score\r\n
-$group_discussion_score = $calculator->getScore('group');\r\n\r\n
+// can get individual group scores with ->getScore($group)<br />
+// group   => Group Discussion Score<br />
+// meeting => Meeting Score<br />
+// interpersonal => Interpersonal Score<br />
+// public => Public Speaking Score<br />
+$group_discussion_score = $calculator->getScore('group');<br /><br />
 
-// getting total communication apprehension score\r\n
+// getting total communication apprehension score<br />
 $PRCA = $calculator->calculatePRCA();
 </code>
 </p>
