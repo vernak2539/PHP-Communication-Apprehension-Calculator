@@ -7,8 +7,6 @@
 
 <h2>Usage</h2>
 <p>This class accepts $_POST data from an online form. This form should include the 24 questions stated by McCroskey in the link above.</p>
-<blockquote>
-<p>
 	include '/path/to/class/Calculator.php';
 	$calculator = new Calculator($_POST);
 
@@ -21,5 +19,3 @@
 
 	// getting total communication apprehension score
 	$PRCA = $calculator->calculatePRCA();
-</p>
-</blockquote>
