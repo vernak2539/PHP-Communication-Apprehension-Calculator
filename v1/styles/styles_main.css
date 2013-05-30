@@ -1,0 +1,39 @@
+/*
+Online Communication Apprehension Calculator
+by Alex Vernacchia
+www.alexvernacchia.com
+CSS File v1.0
+*/
+@import url(styles_reset.css);
+html				{ background:#efefef }
+body				{ color:#666;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:14px; padding:0; margin:0 0 20px;}
+#container			{ -moz-border-radius-bottomleft:10px; -moz-border-radius-bottomright:10px; -moz-border-radius-topleft:0; -moz-border-radius-topright:0; -moz-box-shadow:0 0 10px 0 #aaa; -webkit-border-radius:0 0 10px 10px; -webkit-box-shadow:0 0 10px 0 #aaa; background:#fff; border:1px solid #ccc; border-radius:0 0 10px 10px; border-top:none; box-shadow:0 0 10px 0 #aaa; margin:0 auto 40px; padding:10px 20px 10px; width:940px }
+h1					{ font-size:30px; color:#57B7DC; filter:dropshadow(color=#377a93,offx=1,offy=1); margin:10px 0; text-align:center; text-shadow:1px 1px 1px #377a93 }
+h2					{ font-size:20px; color:#22A1D3; text-align:center; margin:15px 0 }
+p					{ padding:10px 0; line-height:1.5em }
+p.pointer			{ cursor:pointer; margin:10px 0 0; }
+p.hide				{ margin:0; padding:0; }
+p.center			{ text-align:center }
+p.instructions		{ border-top:1px solid #ccc; padding-top:10px; margin-top:10px }
+a, a:visited		{ color:#22A1D3 }
+ul, ol				{ margin:0 0 10px 30px }
+ul 					{ text-align:center; width:100%; margin-top:10px } 
+ul li				{ display:inline;margin-right:30px; list-style:disc }
+ol					{ margin-bottom:10px }
+ol li				{ border-bottom:1px solid #ccc; padding:15px 0; list-style:decimal }
+ol li:first-child	{ border-top:1px solid #ccc }
+ol li:hover			{ background:#efefef; color:#000 }
+select				{ -moz-border-radius:5px; -webkit-border-radius:5px; border:1px solid #ccc; border-radius:5px; margin:0 10px; padding:3px; font-size:13px; }
+label				{ padding-top:2px }
+input[type=submit]	{ margin:0 0 0 20px; padding:4px 7px 3px }
+.clear				{ clear:both; height:0 }
+.big				{ font-size:30px }
+.error				{ margin:0 0 0 20px; color:#c00; }
+.black				{ color:#222 }
+/*
+CSS CLEARFIX
+*/
+clearfix:after			{ content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0 }
+.clearfix				{ display:inline-block }
+html[xmlns] .clearfix	{ display:block }
+* html .clearfix		{ height:1% }
