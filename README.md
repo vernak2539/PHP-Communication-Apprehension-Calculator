@@ -3,8 +3,6 @@
 
 <p>This instrument was created based on McCroskey's <a href="http://www.jamescmccroskey.com/measures/prca24.htm" target="_blank">Personal Report of Communication Apprehension (PRCA-24)</a>, and was made for my MS at Purdue University.</p>
 
-<p><a href="http://ca.alexvernacchia.com" target="_blank">See it in action</a> and find out your score.</p>
-
 <h2>Usage</h2>
 <p>This class accepts $_POST data from an online form. This form should include the 24 questions stated by McCroskey in the link above.</p>
 	include '/path/to/class/Calculator.php';
